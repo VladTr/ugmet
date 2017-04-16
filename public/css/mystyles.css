@@ -1,0 +1,150 @@
+body{
+	background-color: #ccc;
+}
+
+.container-background{
+	background-color: #eee;
+}
+
+div{
+	margin: 0;
+}
+
+img{
+	background-size: contain;
+	width: 100%;
+}
+
+.nav{
+	color: white;
+}
+
+ul li  a{
+	font-size: 1.2em;
+	color: white;
+}
+
+.shadow{
+	box-shadow: 0 0 40px rgba(0,0,0,0.5); 
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #eee;
+	border:none;
+}
+
+#menu { 		
+background-image: url('../img/menu.jpg');
+}
+
+.nav-tabs.nav-justified > li > a {
+    border-bottom: none;
+}
+
+.nav-tabs > li > a {
+    border: none; 
+}
+
+.b-share{
+	vertical-align: inherit;
+}
+
+.social{
+	margin-bottom: 10px;
+	/*margin-top: -10px;*/
+}
+
+td{
+	text-align: center;
+}
+
+.form-control{
+	width:300px;
+}
+
+.btn-mysuccess{
+	background-color: #73823D;
+	color: white;
+}
+.btn-mysuccess:hover{
+	color: #1f648b;
+}
+
+tr:nth-child(even) {background:lightgrey;)
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	padding: 5px;
+	line-height: 1.42857143;
+	/* vertical-align: top; */
+	border-top: 1px solid #ddd;
+
+}
+
+.row{
+	padding-top: 10px;
+}
+
+.my-text{
+	text-align: justify;
+}
+
+.my-table-rope{
+	border: 1px solid silver;
+}
+
+#cartAmount{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	-khtml-border-radius:50px;
+	font-size:12px; color:#000;
+	line-height:20px;
+	text-align:center;
+	background:#fff
+}
+
+.cart{
+	width:20px;
+	height:20px;
+	display:inline-block;
+}
+
+.row{
+	padding-top: 0;
+}
+
+.myFooter{
+	margin-top: 30px;
+	height:30px;
+	background-color: #73823D;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+.myFooter span{
+	color: #0f0f0f;
+	text-decoration: underline;
+}
+
+.img-inside{
+	margin-top: 60px;
+}
+
+.spare-parts{
+	width:100px;
+	height:100px;
+}
+
+#spareSelect{
+	height: 100%;
+}
+
+.table-delivery{
+	border-collapse: collapse;
+	border-spacing: 70px;
+}
