@@ -8,7 +8,7 @@
 
         <title>ЮГМетал-Плюс</title>
 
-
+        <link rel="shortcut icon" href="/img/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="/css/bootstrap.css" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -49,7 +49,7 @@
                     <p><b>093 793 23 48</b>  Life:) </p>
                     <p><b>099 460 18 06</b>  МТС </p>
                     <p><b>097 331 01 94</b>  Kyivstar </p>
-                    <p><b>ump1305@mail.ru</b></p>
+                    <p><b>ugmetplus</b>@gmail.com</p>
                     <div class="social">
                     <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,lj,gplus"></div>
                     </div>
