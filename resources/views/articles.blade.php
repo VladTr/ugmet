@@ -1,6 +1,7 @@
 @extends('main')
 
 @section('head')
+    @parent
 @endsection
 
 @section('content')
@@ -26,4 +27,3 @@
 @endsection
 
 @section('scripts')
-@endsection

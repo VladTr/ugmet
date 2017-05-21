@@ -1,6 +1,7 @@
 @extends('main')
 
 @section('head')
+    @parent
 @endsection
 
 @section('content')
