@@ -22,6 +22,7 @@
                     </div>
             </div>
             <div class="col-md-5">
+                <br>
                 <Table class="my-table-rope">
                     <TR class="tabstyle">
                         <TD class="tabstyle" ROWSPAN=2 ><p align="center">диаметр</br> каната, мм.</p></TD>
@@ -84,6 +85,7 @@
             </div>
         </div>
         <div class="row">
+            <br>
             <div class="col-md-7">
                 <div class="my-text">
                     <h4>Стропы текстильные</h4>
@@ -98,6 +100,8 @@
                 </div>
             </div>
             <div class="col-md-5">
+                <br>
+                <br>
                 <Table class="my-table-rope">
                     <TR class="tabstyle">
                         <TD class="tabstyle" ROWSPAN=2 COLSPAN=2 ><p align="center">цвет ленты</p></TD>
@@ -159,10 +163,24 @@
             </div>
         </div>
         <div class="row">
+            <br>
             <div class="col-md-7">
                 <div class="my-text">
                     <h4>Стропы цепные</h4>
-                     Текст про цепные стропы
+                    Стропы цепные являются самыми долговечными из всех видов стропов. Применение цепных стропов является единственно возможным вариантом подъема и перемещения грузов на "горячих" производствах, где не возможна эксплуатация стропов на основе стальных канатов или синтетических материалов.<br>
+                    Преимущества цепных строп:
+                    <ul>
+                        <li>работоспособны при высоких температурах до 300°С, а при снижении грузоподъемности относительно паспортной - свыше 500°С;</li>
+                        <li>отсутствие упругих и пружинных деформаций (в сравнении с канатными стропами);</li>
+                        <li>не боятся острых кромок груза;</li>
+                        <li>компактны, легко складываются;</li>
+                        <li>возможность регулировки ветвей стропа (при установке специальных крюков-укоротителей);</li>
+                        <li>простота визуального способа обследования и выбраковки;</li>
+                        <li>долговечны. Срок службы исчисляется годами;</li>
+                        <li>ремонтопригодны. Возможна замена изношенных частей;</li>
+                        <li>работоспособность в агрессивных средах</li>
+                    </ul>
+
                 </div>
                 <div>
                     <a class="btn btn-primary" href="/category/5">Выбираем цепной строп</a>
@@ -174,9 +192,9 @@
                     <TD class="tabstyle" COLSPAN=3 >грузоподъемность стропа, тн.</TD>
                     </TR>
                     <TR class="tabstyle">
-                        <TD class="tabstyle"><img src="/img/1sc.png" alt="Строп 1СЦ" width ="50" height="100"></br>Строп 1СЦ</TD>
-                        <TD class="tabstyle"><img src="/img/2sc.png" alt="Строп 2СЦ" width ="50" height="100"></br>Строп 2СЦ</TD>
-                        <TD class="tabstyle"><img src="/img/4sc.png" alt="Строп 4СЦ" width ="90" height="100"></br>Строп 4СЦ</TD>
+                        <TD class="tabstyle"><img src="/img/1sc.png" alt="Строп 1СЦ" width ="50" height="100"></br> 1СЦ</TD>
+                        <TD class="tabstyle"><img src="/img/2sc.png" alt="Строп 2СЦ" width ="50" height="100"></br> 2СЦ</TD>
+                        <TD class="tabstyle"><img src="/img/4sc.png" alt="Строп 4СЦ" width ="90" height="100"></br> 4СЦ</TD>
                     </TR>
                     <tr>
                         <td class="tabstyle">6х18</td> <td class="tabstyle">1,12</td> <td class="tabstyle">1,60</td><td class="tabstyle">2,36</td>

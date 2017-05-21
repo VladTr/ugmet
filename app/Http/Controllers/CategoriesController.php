@@ -15,6 +15,14 @@ class CategoriesController extends Controller
             return view('rope');
         }
 
+        if ($cat==6){
+            return view('wire2688');
+        }
+
+        if ($cat==7){
+            return view('wire7668');
+        }
+
         if ($cat==8){
             return view('clamping-belt');
         }

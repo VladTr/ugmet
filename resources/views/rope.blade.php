@@ -20,19 +20,19 @@
                    <form action="/order-post-light" method="post">
                        <div class="input-group">
                            <span class="input-group-addon" id="basic-addon1" >ГОСТ</span>
-                           <input pattern="[0-9]{4}" name="gost" type="text" class="form-control" placeholder="2688/7688/..." aria-describedby="basic-addon1">
+                           <input required pattern="[0-9]{4}" name="gost" type="text" class="form-control" placeholder="2688/7688/..." aria-describedby="basic-addon1">
                        </div>
                        <div class="input-group">
                            <span class="input-group-addon" id="basic-addon1">Диаметр, мм</span>
-                           <input  name="diam" type="text" class="form-control" placeholder="8...50" aria-describedby="basic-addon1">
+                           <input required  name="diam" type="text" class="form-control" placeholder="8...50" aria-describedby="basic-addon1">
                        </div>
                        <div class="input-group">
                            <span class="input-group-addon" id="basic-addon1">Ваше имя </span>
-                           <input  name="name" type="text" class="form-control"aria-describedby="basic-addon1">
+                           <input required name="name" type="text" class="form-control"aria-describedby="basic-addon1">
                        </div>
                        <div class="input-group">
                            <span class="input-group-addon" id="basic-addon1">Ваш телефон</span>
-                           <input name="tel" type="text" class="form-control"  aria-describedby="basic-addon1">
+                           <input required name="tel" type="text" class="form-control"  aria-describedby="basic-addon1">
                        </div>
 
                        <input type="hidden" name="_token" value="{{ csrf_token() }}">

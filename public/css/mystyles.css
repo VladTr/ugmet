@@ -90,6 +90,10 @@ tr:nth-child(even) {background:lightgrey;)
 	text-align: justify;
 }
 
+.my-text-centre{
+	text-align: right;
+}
+
 .my-table-rope{
 	border: 1px solid silver;
 }

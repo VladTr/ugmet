@@ -1,14 +1,14 @@
 @extends('main')
 
 @section('head')
-
+@endsection
 
 @section('content')
 
-   <h3>{{$categories->name}}</h3>
-   <p>{{$categories->description}}</p>
+   <h4>{{$categories->name}}</h4>
+   <p class="text-justify">{{$categories->description}}</p>
 
-   <div class="col-md-12">
+   <div class="col-md-10 col-md-offset-1">
        <div class="row">
            <div class="col-md-4">
                <table class="table table-condensed table-hover table-bordered" id="table-cat">
@@ -80,7 +80,6 @@
                </table>
            </div>
        </div>
-
    </div>
 
 

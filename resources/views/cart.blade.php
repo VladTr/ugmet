@@ -16,10 +16,10 @@
                         <table id="cart" class="table table-condensed table-hover table-bordered">
                             <thead>
                                 <tr>
-                                    <td>#</td><td>name</td>
-                                    <td>len</td><td>qty</td>
-                                    <td>cost per unit</td><td>total cost</td>
-                                    <td>delete</td>
+                                    <td>#</td><td>наименование</td>
+                                    <td>длина, мм</td><td>кол-во</td>
+                                    <td>цена</td><td>стоимость</td>
+                                    <td>удалить</td>
                                 </tr>
                             </thead>
                             <tbody>
