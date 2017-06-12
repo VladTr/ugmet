@@ -1,5 +1,5 @@
 <?php
-
+// виджет для демонстрации категорий товаров
 namespace App\Widgets;
 
 use Arrilot\Widgets\AbstractWidget;
@@ -21,7 +21,7 @@ class CategoryWidget extends AbstractWidget
     public function run()
     {
         $this->categories=Category::all();
-
+        // функция построения дерева по категориям
         function get_tree($tree, $parent_id) {
             $html = '';
             foreach ($tree as $row) {
@@ -32,21 +32,15 @@ class CategoryWidget extends AbstractWidget
                     if($row['parent_id']!=0){
                         $html .= "<div class='child'>";
                     }
-
                     $html .= '' .'<a href="/category/'.$row['id'].' "> '.$row['name'].'</a>';
-                    //$html .= '    ' .'<a href="server.php?id={$row[id`]}">'.$row['text'].'</a>';
-
                     $html .= '    ' . get_tree($tree, $row['id']);
                     $html .= '</div>';
                 }
             }
-            //$html.='</ul>';
             return $html;
         }
-
+        // строим иерархическое дерево категорий
         $html = get_tree($this->categories, 0);
-
-
 
         return view("widgets.category_widget", [
             'categories' => $html,

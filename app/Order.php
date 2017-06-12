@@ -1,5 +1,5 @@
 <?php
-
+//модель Заказ
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;

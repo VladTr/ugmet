@@ -1,4 +1,4 @@
-
+//скрипт изменения фона меню - требует доработки!
 $(window).resize(function(){
   var width=$(document).width();
   if (width<760){
@@ -6,6 +6,7 @@ $(window).resize(function(){
   }
 });    
 
+// отображение количества товаров в корзине
 $(document).ready(function() {
     if ($.cookie('basket')){
         var basketOrder=JSON.parse($.cookie('basket'));

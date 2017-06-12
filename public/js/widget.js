@@ -1,3 +1,5 @@
+// установка стилей для виджета категорий
+
 $('.widget').css('background-color', '#73823D');
 $('.widget a').css('color', 'white');
 $('.parent').css('margin-left', '10px');
@@ -5,8 +7,6 @@ $('.parent').css('margin-left', '10px');
 
 $('.parent').mouseover(function(){
     $(this).css('cursor', 'default');
-    //$(this).css('margin-left', '10px');
-
 });
 
 $('.child').css('margin-left', '10px');
@@ -31,8 +31,8 @@ $('.widget').mouseleave(function(){
 });
 
 
+// скрипт сохранения заказа
 $('#saveOrder').click(function () {
-
     var basketOrder=[];
     $.cookie.json = true;
     var itemExsists=false;
@@ -56,15 +56,11 @@ $('#saveOrder').click(function () {
                 itemExsists=true;
             }
         }
-
         if(!itemExsists){basketOrder[basketOrder.length]=order;}
     }
-
     $.cookie('basket', basketOrder, {expires:7, path: '/'} );
-
     var span = document.getElementById('cartAmount');
     span.innerHTML = basketOrder.length;
-
 
 });
 

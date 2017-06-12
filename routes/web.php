@@ -24,12 +24,16 @@ Route::get('category/{id}', ['as'=>'category', 'uses'=>'CategoriesController@sho
 
 Route::get('delivery', ['as'=>'delivery', 'uses'=>function () {return view('delivery');}]);
 
+// форма заказа
 Route::get('shopping-cart', ['as'=>'cart', 'uses'=>'ShoppingCartController@showCart']);
 
+//корзина заказов
 Route::get('order', ['as'=>'order', 'uses'=>'OrderController@show']);
 
+// заказ с занесением в базу данных и уведомлением по почте
 Route::post('order-post', ['as'=>'order-post', 'uses'=>'OrderController@proceed']);
 
+//заказ с уведомлением по почте, без внесения в базу данных
 Route::post('order-post-light', ['as'=>'order-post-light', 'uses'=>'OrderController@proceedLight']);
 
 

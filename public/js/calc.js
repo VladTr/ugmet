@@ -1,4 +1,4 @@
-var diam=9;
+// скрипт калькулятора веса каната
 var weight=1;
 var gost='';
 var diam=2;
@@ -100,8 +100,8 @@ function calc(wire){
 			deltaL=i; // сохранение индекса по подходящему элементу
 		}
 	}
-	window.diam=wire[deltaL].d; // фиксируем результат по диаметру в глоб переменной
-	window.weight=wire[deltaL].w; //// фиксируем результат по весу в глоб переменной
+	window.diam=wire[deltaL].d; // фиксируем результат по диаметру
+	window.weight=wire[deltaL].w; //// фиксируем результат по весу
 	window.wireLength =document.getElementById('wireLength').value; // получаем из формы длину каната
 	if(window.wireLength<5000){document.getElementById('inputWeight').innerHTML='Вес каната: '+(window.wireLength*window.weight/1000).toFixed(2)+' кг, '+' диаметр: '+window.diam+' мм'; // присвоение результата
 	}else {document.getElementById('inputWeight').innerHTML='Зачем вам так много? :)'}

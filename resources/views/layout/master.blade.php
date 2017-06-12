@@ -50,10 +50,11 @@
                     <p><b>099 460 18 06</b>  МТС </p>
                     <p><b>097 331 01 94</b>  Kyivstar </p>
                     <p><b>ugmetplus</b>@gmail.com</p>
+                    <!--
                     <div class="social">
                     <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,lj,gplus"></div>
                     </div>
-
+                    -->
                 @show
             </div>
 
