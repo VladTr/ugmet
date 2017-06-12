@@ -1,8 +1,11 @@
 // скрипт управления количеством товаров в корзине
-var basketOrder=JSON.parse($.cookie('basket')); // полчаем массив товаров из cookie
-basketOrder.forEach(function (item, index) {
-    item.row=index+1;
-});
+if ($.cookie('basket')!=undefined){
+    var basketOrder=JSON.parse($.cookie('basket')); // полчаем массив товаров из cookie
+    basketOrder.forEach(function (item, index) {
+        item.row=index+1;
+    });
+}
+
 
 // удаление товара из корзины и сохранение результата в cookie
 $('table#cart a').click(function(){

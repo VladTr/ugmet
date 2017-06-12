@@ -39,20 +39,15 @@ $('#saveOrder').click(function () {
     var orderNum=0;
     if (Object.keys(order).length==0) return;
     if 	($.cookie('basket')==undefined){
-        console.log('basket is empty');
         basketOrder[basketOrder.length]=order;
         orderNum=1;
         order={}
-        console.log('order added');
     } else{
-        console.log('basket is full');
         basketOrder=$.cookie('basket');
         orderNum=basketOrder.length;
-        console.log(orderNum);
         for (var i = 0; i < basketOrder.length; i++) {
             if (basketOrder[i].id==order.id && basketOrder[i].len==order.len){
                 basketOrder[i].amount++;
-                console.log('=');
                 itemExsists=true;
             }
         }

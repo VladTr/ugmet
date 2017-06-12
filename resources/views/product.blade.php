@@ -7,7 +7,6 @@
     $('#saveOrder').hide();
     $('table').click(function(event) {
         var clk = $(event.target).attr('id');
-        console.log(clk);
         if (clk!=undefined){
             arr.forEach(function(item, index){
                 if (item.id==clk){
@@ -40,7 +39,7 @@
 
     });
 
-
+    // функция возвращающая коэффициент для расчета цены стропа
     function rateCalculate (orderName, orderCarrying) {
         var types=[
             {name:'СКП',rate:[{carrying:0.63, ratio:65},{carrying:1.25, ratio:60}, {carrying:1.60, ratio:59},

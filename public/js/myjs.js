@@ -10,7 +10,6 @@ $(window).resize(function(){
 $(document).ready(function() {
     if ($.cookie('basket')){
         var basketOrder=JSON.parse($.cookie('basket'));
-        console.log( basketOrder.length+'--');
     }
     var span = document.getElementById('cartAmount');
     span.innerHTML = basketOrder ? basketOrder.length : 0;
